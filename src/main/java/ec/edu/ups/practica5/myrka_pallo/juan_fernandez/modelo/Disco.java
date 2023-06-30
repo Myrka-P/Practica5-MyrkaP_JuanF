@@ -6,6 +6,7 @@ public class Disco {
     private int codigo;
     private String nombre;
     private int anioDeLanzamiento;
+    
 //contructor
     public Disco(int codigo, String nombre, int anioDeLanzamiento) {
         this.codigo = codigo;
@@ -63,6 +64,7 @@ public class Disco {
         }
         return Objects.equals(this.nombre, other.nombre);
     }
+    
 // to String
     @Override
     public String toString() {
