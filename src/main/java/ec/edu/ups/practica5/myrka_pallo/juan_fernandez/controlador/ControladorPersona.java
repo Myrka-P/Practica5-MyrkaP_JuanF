@@ -13,8 +13,8 @@ import java.util.List;
 public class ControladorPersona {
     
     private Persona persona;
-    
     private IPersonaDAO personaDAO;
+    
 // controlador de persona con un parametro
     public ControladorPersona(IPersonaDAO personaDAO) {
         this.personaDAO = personaDAO;
